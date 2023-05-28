@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+   background-image: url(img.png);
+ background-color: rgba(0, 0, 0, 0.707);
+  text-align: left;
+   margin: 20px;
+   width: 800px;
+   margin: auto;
+   
+   height: 800px;
+   
+}
+
+
+
+
+
+header{
+    padding: 10px;
+    background-color: rgba(70, 70, 70, 0.131);
+    border-radius: 10px;
+    
+}
+    header > h1{
+        color: rgba(22, 22, 22, 0);
+        text-align: center;
+        font-weight: normal;
+
+
+    }
+    nav {
+        background-color: rgba(0, 0, 0, 0);
+        padding: 10px;
+        color: rgba(63, 63, 63, 0);
+    }
+    nav a {
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: 0.5s;
+    }
+    nav a:hover{
+        background-color: rgb(110, 106, 106);
+        color: rgba(0, 0, 0, 0.624);
+    }
+        
+    img{
+        border-radius: 150px;
+        margin: 0px;
+        height: 250px;
+        width: 250px;
+        
+       
+        
+    }
+    h1{
+        color: rgb(0, 0, 0);
+
+    }
+
+    main{
+        background-color: rgba(255, 255, 255, 0);
+        padding: 20px;
+        border-radius: 10px;
+        min-width:320px;
+        max-width:800px;
+        margin: auto;
+
+    }
+
+
+
+    h2{
+        color: rgb(0, 0, 0);
+        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.233);
+        text-align: center;
+    }
+    
+    p{
+        color: rgb(0, 0, 0);
+        text-align: justify;
+        padding: 10px;
+        margin-left: 10px;
+        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.174);
+        min-width:320px; 
+        max-width:800px;
+        font-size: 1.em;
+        font-weight: bolder;
+        
+    }
+    footer{
+        background-color: rgba(212, 187, 187, 0.641);
+        color: rgb(0, 0, 0);
+        margin: -10px;
+        width: 150px;
+        
+
+       
+
+    }
+    .externo{
+        padding: 3px;
+        margin-top: 10%;
+
+    }
