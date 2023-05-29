@@ -9,82 +9,121 @@
 }
 
 body {
-   background-image: url(img.png);
- background-color: rgba(0, 0, 0, 0.707);
-  text-align: left;
-   margin: 20px;
-   width: 800px;
+  
+ background-image: linear-gradient(to bottom, blue, white);
+  text-align: center;
    margin: auto;
+   margin: 10px;
    
-   height: 800px;
+   
+   
    
 }
+
 
 
 
 
 
 header{
-    padding: 10px;
-    background-color: rgba(70, 70, 70, 0.131);
+    padding: 40px;
+    background-image: linear-gradient(to bottom, blue, rgb(255, 255, 255));
+    color: white;
     border-radius: 10px;
+    margin: 20px;
+    
+   
     
 }
+
+    
+    
+
+
+
     header > h1{
-        color: rgba(22, 22, 22, 0);
+        color: rgb(0, 0, 0);
         text-align: center;
-        font-weight: normal;
+        font-weight: bolder;
+        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.13);
+        
+        
+        
 
 
     }
-    nav {
-        background-color: rgba(0, 0, 0, 0);
+    .menu{
+        margin: 10px;
         padding: 10px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.194);
+
+        }
+        .estagio{
+            color: rgb(84, 84, 84);
+            border-radius: 20px;
+        }
+
+    main{
+        background-image: linear-gradient(to bottom, white, blue);
+        padding: 20px;
+        border-radius: 10px;
+        min-width:320px;
+        max-width:800px;
+        margin: auto;
+        
+
+    }
+    nav {
+        background-color: rgba(185, 162, 162, 0);
+        
         color: rgba(63, 63, 63, 0);
+       
+        
+        text-align: center;
     }
     nav a {
         color: rgb(0, 0, 0);
         padding: 10px;
         border-radius: 10px;
         text-decoration: none;
-        font-weight: bold;
+        font-weight: bolder;
         transition-duration: 0.5s;
+        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.141);
     }
     nav a:hover{
-        background-color: rgb(110, 106, 106);
-        color: rgba(0, 0, 0, 0.624);
+        background-color: rgb(254, 254, 254);
+        color: rgb(0, 0, 0);
+        
+    }
+
+    div nav {
+        margin: 10px;
     }
         
     img{
-        border-radius: 150px;
+        border-radius: 1px;
         margin: 0px;
-        height: 250px;
-        width: 250px;
-        
-       
+        height: 200px;
+        width: 200px; 
         
     }
-    h1{
-        color: rgb(0, 0, 0);
 
+    img ave {
+        border-radius: 1px;
     }
+    
 
-    main{
-        background-color: rgba(255, 255, 255, 0);
-        padding: 20px;
-        border-radius: 10px;
-        min-width:320px;
-        max-width:800px;
-        margin: auto;
-
-    }
+    
 
 
 
     h2{
         color: rgb(0, 0, 0);
-        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.233);
+        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.142);
         text-align: center;
+        font-weight: bolder;
     }
     
     p{
@@ -92,7 +131,7 @@ header{
         text-align: justify;
         padding: 10px;
         margin-left: 10px;
-        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.174);
+        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.122);
         min-width:320px; 
         max-width:800px;
         font-size: 1.em;
@@ -100,10 +139,10 @@ header{
         
     }
     footer{
-        background-color: rgba(212, 187, 187, 0.641);
-        color: rgb(0, 0, 0);
-        margin: -10px;
+        background-color: rgb(223, 224, 236);
         width: 150px;
+
+        
         
 
        
@@ -112,5 +151,7 @@ header{
     .externo{
         padding: 3px;
         margin-top: 10%;
+        color: rgb(0, 0, 0);
+        margin: auto;
 
     }
